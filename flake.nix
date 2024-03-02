@@ -50,6 +50,7 @@
             nativeBuildInputs = with pkgs; [
               just
               rust-toolchain
+              adoptopenjdk-icedtea-web
             ];
             RUST_BACKTRACE = 1;
           };
